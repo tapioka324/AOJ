@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -8,6 +9,9 @@ int main()
     for (int i = 0; i < 10; i++) {
         cin >> h[i];
     }
+
+    sort(h, h + 10);
+    cout << h[9] << endl << h[8] << endl << h[7] << endl;
 
     return 0;
 }
