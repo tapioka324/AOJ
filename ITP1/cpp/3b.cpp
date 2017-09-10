@@ -1,13 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
     int x, i = 1;
 
     while (1) {
+        // input
         cin >> x;
+        // solve & output
         if (x == 0) {
             break;
         } else {

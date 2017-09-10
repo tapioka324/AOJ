@@ -1,12 +1,12 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    // input
     int a, b, c;
     cin >> a >> b >> c;
 
+    // solve
     int tmp;
     if (a > b) {
         tmp = a;
@@ -24,6 +24,7 @@ int main()
         b = tmp;
     }
 
+    // output
     cout << a << " " << b << " " << c << endl;
 
     return 0;

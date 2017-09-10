@@ -1,18 +1,17 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-    int h, w;
-    
-    while (cin >> h >> w) {
-        if (h == 0 && w == 0) {
+int main() {
+    int H, W;
+
+    // solve & output
+    while (cin >> H >> W) {
+        if (H == 0 && W == 0) {
             break;
         }
-        for (int i = 0; i < h; i++) {
-            for (int j = 0; j < w; j++) {
-                if (i == 0 || j == 0 || i == h - 1 || j == w - 1) {
+        for (int i = 0; i < H; i++) {
+            for (int j = 0; j < W; j++) {
+                if (i == 0 || j == 0 || i == H - 1 || j == W - 1) {
                     cout << "#";
                 } else {
                     cout << ".";

@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    // input
     int n;
     int a[100];
     cin >> n;
@@ -12,9 +11,12 @@ int main()
         cin >> a[i];
     }
 
+    // solve
     for (int i = n - 1; i > 0; --i) {
         cout << a[i] << " ";
     }
+
+    // output
     cout << a[0] << endl;
 
     return 0;

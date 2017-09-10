@@ -1,12 +1,12 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    // input
     int a, b;
     cin >> a >> b;
 
+    // solve & output
     if (a < b) {
         cout << "a < b" << endl;
     } else if (a > b) {
@@ -14,6 +14,6 @@ int main()
     } else {
         cout << "a == b" << endl;
     }
-    
+
     return 0;
 }

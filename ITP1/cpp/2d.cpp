@@ -1,13 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-    int w, h, x, y, r;
-    cin >> w >> h >> x >> y >> r;
+int main() {
+    // input
+    int W, H, x, y, r;
+    cin >> W >> H >> x >> y >> r;
 
-    if (x - r >= 0 && y - r >= 0 && x + r <= w && y + r <= h) {
+    // solve & output
+    if (x - r >= 0 && y - r >= 0 && x + r <= W && y + r <= H) {
         cout << "Yes" << endl;
     } else {
         cout << "No" << endl;

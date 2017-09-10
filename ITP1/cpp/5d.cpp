@@ -1,12 +1,12 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    // input
     int n;
     cin >> n;
 
+    // solve & output
     for (int i = 1; i <= n; ++i) {
         int x = i;
         if (x % 3 == 0) {

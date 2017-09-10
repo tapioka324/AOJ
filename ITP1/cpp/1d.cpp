@@ -1,18 +1,19 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-    int s;
-    cin >> s;
+int main() {
+    // input
+    int S;
+    cin >> S;
 
-    int h = s / 3600;
-    s %= 3600;
-    int m = s / 60;
-    s %= 60;
+    // solve
+    int h = S / 3600;
+    S %= 3600;
+    int m = S / 60;
+    S %= 60;
 
-    cout << h << ":" << m << ":" << s << endl;
-    
+    // output
+    cout << h << ":" << m << ":" << S << endl;
+
     return 0;
 }

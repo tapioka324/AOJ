@@ -1,13 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
+    // input
     int a, b;
     char op;
 
     while (cin >> a >> op >> b) {
+        // solve & output
         switch (op) {
             case '+':
                 cout << a + b << endl;

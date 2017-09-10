@@ -1,13 +1,13 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main() {
     int x, y;
 
     while (1) {
+        // input
         cin >> x >> y;
+        // solve & output
         if (x == 0 && y == 0) {
             break;
         }
@@ -17,6 +17,6 @@ int main()
             cout << y << " " << x << endl;
         }
     }
-    
+
     return 0;
 }

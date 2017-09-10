@@ -1,17 +1,17 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
-    int h, w;
+int main() {
+    // input
+    int H, W;
 
-    while (cin >> h >> w) {
-        if (h == 0 && w == 0) {
+    // solve & output
+    while (cin >> H >> W) {
+        if (H == 0 && W == 0) {
             break;
         }
-        for (int i = 0; i < h; i++) {
-            for (int j = 0; j < w; j++) {
+        for (int i = 0; i < H; i++) {
+            for (int j = 0; j < W; j++) {
                 if ((i + j) % 2 == 0) {
                     cout << "#";
                 } else {
